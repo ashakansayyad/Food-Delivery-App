@@ -1,0 +1,94 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 100%;
+    padding: 0px 80px;
+}
+
+.navbar_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+    background: #FAFAFA;
+    border: 1px solid #0000001A;
+}
+.navbar_top_promocode{
+    display: flex;
+    font-weight: 600;
+}
+.navbar_right_container{
+    display: flex;
+    height: 100%;
+    gap: 30px;
+}
+.navbar_top_address{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar_top_address #location{
+  color: #FC8A06;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.navbar_top_cartContainer{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 100%;
+    cursor: pointer;
+    padding: 0px 20px;
+    background: #028643;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.navbar_top_cartContainer span{
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+}
+.navbar_bottom{
+    display: flex;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.navbar_bottom #app_logo{
+    width: 180px;
+    height: auto;
+}
+.navbar_bottom nav{
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+    cursor: pointer;   
+}
+.active{
+    width: auto;
+    height: 40px;
+    background: #FC8A06;
+    padding: 0 20px;
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.navbar_bottom nav button{
+    display: flex;
+    align-items: center;
+    gap: 5px;    
+    padding: 0px 15px;
+    background: #03081F;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 120px;
+    border: none;
+    height: 40px;
+}

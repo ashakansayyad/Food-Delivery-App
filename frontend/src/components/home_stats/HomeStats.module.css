@@ -1,0 +1,26 @@
+.homestats{
+    display: flex;
+    width: 100%;
+    margin: 2rem 0;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: center;
+    background: #FC8A06;
+    border-radius: 12px;
+    border: 1px solid red;
+}
+.homestats p{
+   font-size: 75px;
+   font-weight: 50;
+   color: white;
+}
+.homestats span{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homestats span h1{
+  font-weight: 400;
+  font-size: 50px;
+}

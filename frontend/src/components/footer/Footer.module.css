@@ -1,0 +1,119 @@
+.footer{
+    width: 100%;
+    height: 50vh;
+}
+.footer_top{
+    height: 85%;
+    background: #E8E8E8;
+    display: flex;
+    padding: 10px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_top_logoContainer{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.footer_top_logoContainer img{
+    width: 60%;
+    height: auto;
+}
+.footer_top_logoContainer span{
+   display: flex;
+   gap: 10px;
+}
+.footer_top_logoContainer span #google_play{
+   height: 45px;
+}
+.footer_top_logoContainer p{
+  font-weight: 500;
+  font-size: 15px;
+}
+.footer_top_emailContainer{
+      /* border: 1px solid black; */
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_top_emailContainer h3{
+    font-weight: 650;
+    font-size: 16px;
+}
+.footer_top_emailContainer span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #D9D9D9;
+    border-radius: 120px;
+    border: 1px solid #e3e3e3;
+}
+.footer_top_emailContainer span input {
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: Poppins, sans-serif; /* Added fallback */
+    font-size: 16px;
+  }
+  
+  .footer_top_emailContainer span button {
+    width: 210px;
+    height: 50px;
+    border: none;
+    border-radius: 1200px;
+    background: #FC8A06;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  .footer_top_emailContainer p {
+   margin-top: -1rem;
+   margin-left: 1.5rem;
+   font-size: 14px;
+   font-weight: 500; 
+  }
+  .footer_top_emailContainer_icons_container{
+    display: flex;
+    gap: 20px;
+  }
+  .footer_top_otherLinksContainer{
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 20px;
+  }
+  .footer_top_otherLinksContainer_pages, .footer_top_otherLinksContainer_links{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer_top_otherLinksContainer_pages h3, .footer_top_otherLinksContainer_links h3{
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  }
+  .footer_top_otherLinksContainer_pages p, .footer_top_otherLinksContainer_links p{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+  }
+.footer_bottom{
+    height: 15%;
+    background: #03081F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 45px;
+}
+.footer_bottom_right {
+    display: flex;
+    align-items: center;
+   gap: 40px;
+}

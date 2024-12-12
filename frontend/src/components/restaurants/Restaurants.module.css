@@ -1,0 +1,30 @@
+.restaurants {
+  height: 35vh;
+  /* border: 1px solid gold; */
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.imageConatiner {
+  display: flex;
+  flex-direction: column;
+  width: 16%;
+  cursor: pointer;
+}
+.imageConatiner img {
+  width: 100%;
+  height: 80%;
+}
+.imageConatiner p {
+  display: flex;
+  padding: 15px 0px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 18px;
+  height: 20%;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #0000001a;
+  border-radius: 0 0 12px 12px;
+  background: #fc8a06;
+}
