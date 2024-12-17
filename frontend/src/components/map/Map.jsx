@@ -5,10 +5,10 @@ import styles from "./Map.module.css";
 
 const Map = () => {
   useEffect(() => {
-    // Initialize the map
+    
     const map = L.map("map").setView([51.5049375, -0.0816548], 15);
 
-    // Add OpenStreetMap tiles
+    
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
@@ -21,7 +21,7 @@ const Map = () => {
       popupAnchor: [0, -30], // Position of the popup relative to the icon
     });
 
-    // Add a marker with the custom icon
+    
     const marker = L.marker([51.5049375, -0.0816548], { icon: customIcon }).addTo(map);
 
     // Add a custom popup

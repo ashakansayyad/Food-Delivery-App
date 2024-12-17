@@ -32,7 +32,6 @@ function Home() {
           setCategoriesCard(res.data);
         } else {
           setMaleCard(res.data);
-          console.log("maleCard: ", maleCard);
         }
       }
     } catch (err) {

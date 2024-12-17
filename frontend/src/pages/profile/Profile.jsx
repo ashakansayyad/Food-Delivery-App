@@ -15,6 +15,7 @@ import DebitCardModal from "../../components/debitcardmodal/DebitCardModal";
 import { toast } from "react-toastify";
 
 function Profile() {
+  const token = localStorage.getItem("token");
   const {
     addDebitCardModal,
     setAddDebitCardModal,
@@ -108,7 +109,6 @@ function Profile() {
   }, []);
 
   useEffect(() => {
-    const token = localStorage.getItem("token");
     if (!token) {
       navigate("/login");
     }
