@@ -69,13 +69,14 @@
 
 .iconToggle {
   position: absolute;
-  right: 15px;
-  top: 50%;
+  top: 10px;
+  left: 50%;
+  transform: translateY(-50%);
   width: 20px;
   height: 20px;
   cursor: pointer;
-  transition: transform 0.2s ease;
 }
+
 
 .iconToggle:hover {
   transform: rotate(180deg); 
