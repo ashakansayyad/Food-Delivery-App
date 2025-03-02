@@ -23,8 +23,8 @@ function Payment() {
         if(res && res.status === 200){
           toast.success("Order place Successfully!");
           setPlacedOrderItems(res.data.orderedItems)
+          navigate('/ordersuccess');
         }
-        // navigate('/ordersuccess');
     }catch(err){
       if (err.response ) {
         toast.error(err.response.data.message);

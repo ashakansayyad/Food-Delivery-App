@@ -26,7 +26,7 @@ function OrderSuccess() {
         <div className={styles.ordersuccess_mainConatiner_bottom}>
           <div className={styles.item_names}>
         {placedOrderItems?.length > 0 ? (
-                placedOrderItems.map((item) => (
+                placedOrderItems?.map((item) => (
                   <p key={item._id}>{item.foodName}</p>
                 ))
               ) : (

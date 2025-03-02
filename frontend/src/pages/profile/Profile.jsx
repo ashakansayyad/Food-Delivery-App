@@ -109,7 +109,7 @@ function Profile() {
   }, []);
 
   useEffect(() => {
-    if (!token) {
+    if(!token) {
       navigate("/login");
     }
   }, []);
